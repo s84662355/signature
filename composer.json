@@ -1,0 +1,19 @@
+{
+    "name": "chenjiahao/signature",
+    "description": "signature laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chenjiahao",
+            "email": "271375247@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "HttpSign\\": "src/"
+        }
+    }    
+}
